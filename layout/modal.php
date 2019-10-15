@@ -15,7 +15,7 @@
                     Non tutte le funzionalità del sito originale sono state riprodotte.
                 </p>
                 <p>
-                    Trovi il codice sorgente su <a href="https://github.com" target="_blank">Github</a>.
+                    Trovi il codice sorgente su <a href="https://github.com/nicolapalermo/Clone_Coinmarketcap" target="_blank">Github</a>.
                 </p>                    
             </div>
         </div>
