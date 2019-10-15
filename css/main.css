@@ -1,0 +1,370 @@
+@import "../fonts/helvetica-neue/style.css";
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1400px;
+    }
+}
+body {
+	font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.banner {
+	height: 100px;
+}
+
+.topbar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 11px;
+}
+
+.navbar {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+/* .navbar-brand img{
+    width: 263px;
+    height: 45px;
+} */
+
+.navbar-brand .logo {
+	width: 263px;
+	height: 45px;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: block;
+}
+
+
+
+.navbar .dropdown-toggle::after {
+	display: none;
+}
+.navbar form input {
+	border: none;
+	background-color: transparent;
+	font-size: 12px;
+	width: calc(100% - 50px) !important;
+}
+
+.navbar form input::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: black;
+	opacity: 1; /* Firefox */
+}
+
+.navbar form input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: black;
+}
+
+.navbar form input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: black;
+}
+
+.navbar .form-control:focus {
+	background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar form {
+	background-color: #ebeff2;
+	border-radius: 5px;
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar form button {
+	height: 34px;
+	width: 34px;
+	padding: 10px;
+}
+.navbar form .icon {
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/search.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#sort-by option:disabled {
+	font-size: 4px;
+}
+
+.main-content {
+	padding: 24px;
+}
+
+.main-content .header {
+	margin: 24px 0;
+}
+
+.main-content .header h1 {
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.main-content form .form-row {
+	justify-content: center;
+}
+
+.thead-light {
+	border-bottom: 1px solid gray;
+}
+
+.home-page thead th {
+	position: sticky;
+    top: 0;
+    background-color: #fff !important;
+    font-style: italic;
+}
+
+.details-page thead th {
+    font-style: italic;
+}
+footer p {
+    text-align: center;
+}
+
+.details-page h1 {
+    font-style: italic;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+.details-page h1 span {
+    font-style: italic;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.details-page .links {
+    margin-top: 80px;
+}
+
+.details-page .links span {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.details-page .links .tags span {
+    background-color: #f0ad4e;
+}
+
+.details-page .details {
+    font-size: 25px;
+}
+
+.details-page .main-content {
+    padding-top: 80px;
+    min-height: 90vh;
+}
+
+.details-page .buttons .nav-link {
+    background-color: #4878FF;
+    color: white;
+    margin:3px;
+}
+
+
+.details-page .social {
+    margin-top: 50px;
+}
+
+
+.details-page .social button {
+    color: black;
+}
+
+
+.error::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red !important;
+  opacity: 1; /* Firefox */
+}
+
+.error:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red !important;
+}
+
+.error::-ms-input-placeholder { /* Microsoft Edge */
+  color: red !important;
+}
+
+.moon-icon {
+	height: 20px;
+	width: 20px;
+	display: block;
+	background-image: url("../images/moon-dark.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.dark-theme{
+	background-color: #17181b !important;
+    color: #a0a0a0 !important;
+}
+
+.dark-theme * {
+	color: #a0a0a0 !important;
+}
+
+.dark-theme a {
+	color: #69c !important;
+}
+
+.dark-theme .navbar-brand .logo {
+	background-image: url("../images/logo-dark.png");
+}
+
+.dark-theme thead th {
+    background-color: #17181b !important;
+}
+
+.dark-theme form select {
+    background-color: #272B32 !important;
+}
+
+
+.dark-theme .navbar form {
+	background-color: #272B32 !important;
+}
+
+.dark-theme #calltoaction a {
+	color: #fff !important;
+}
+
+.dark-theme .moon-icon {
+	background-image: url("../images/moon-light.png");
+}
+
+
+#google_translate_element {
+	display: inline;
+}
+
+#google_translate_element .skiptranslate {
+	display: inline;
+	font-size: 0;
+}
+
+#google_translate_element .skiptranslate:first-child div {
+	display: inline;
+}
+
+#google_translate_element .skiptranslate span {
+	display: none;
+}
+
+.dark-theme #google_translate_element select {
+	background-color: #272B32;
+}
+
+#mobile-data-visualization {
+	display: none;
+}
+
+@media (max-width: 991.98px) {
+
+	.banner,
+	.topbar .left-menu {
+		display: none;
+	}
+	.topbar {
+		margin-top: 10px;
+	}
+	.topbar .container {
+		display: block !important;
+	}
+	.navbar-brand .logo {
+		width: 200px; 
+	}
+	.navbar .container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.navbar-nav .nav-link {
+		text-align: center;
+	}
+
+	.details-page .nav-pills {
+		justify-content: center;
+	}
+	
+	.details-page .links {
+		margin-top: 20px;
+	}
+
+	.details-page .details {
+		margin: 40px 0;
+	}
+
+	.details-page .social {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.details-page .social button {
+		margin: 5px;
+	}
+
+	.details-page .links .nav-link {
+		text-align: center;
+	}
+
+	.details-page h1 {
+		display: block;
+		text-align: center
+	}
+	
+	.text-center-md {
+		text-align: center;
+	}
+
+	#desktop-data-visualization {
+		display: none;
+	}
+
+	#mobile-data-visualization {
+		display: block;
+	}
+
+	#mobile-data-visualization .btn-link {
+		color: black;
+	}
+
+	#mobile-data-visualization .btn-link:hover {
+		color: #0056b3;
+		text-decoration: none !important;
+	}
+
+	#mobile-data-visualization .table td,
+	#mobile-data-visualization .table th {
+		padding: .75rem 0;
+		vertical-align: bottom;
+		width: 10px;
+	}
+	#mobile-data-visualization .table td {
+		padding-left: .2rem;
+	}
+}
